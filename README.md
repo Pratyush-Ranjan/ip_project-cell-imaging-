@@ -71,5 +71,5 @@ verted to readable address using reverse geo-coding.</p>
 <p><img src="centresDisplay.png"/ height=300px width=500px></p>
 <p>The user is also given an option to receive the list of nearby health-centres in the
 form of PDF as an email.</p>
-<p><img src="mailReceived.JPG"/ height=300px width=500px></p>
+<p><img src="mailReceived.jpg"/ height=300px width=500px></p>
 

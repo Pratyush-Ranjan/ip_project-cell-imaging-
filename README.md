@@ -10,12 +10,17 @@ According to the World Health Organization (WHO),there are over 200 million mala
 
 ## Workflow
 The user firt signs up for a free account --> The user is then required to login --> The user then uploads the image of thin blood smears with the form presented to him/her --> The model is run on that image and the results are presented to the user --> The user also has the choice to view the nearby health centres for malaria treatment.
+<p><img src="worflowdiagram.jpg"/></p>
 
 ## Technology Stack
-
-- Django (version = 2.0.5)
-- PostgreSQL
-- Bootstrap3 , html , css
+<p>
+  <li>Language Used </li>
+    <ul>python</ul>
+  <li>Machine learning and Deep learning</li>
+    <ul>keras, Scikitlearn, numpy, pandas, opencv etc.</ul>
+  <li> Web Technologies</li>
+    <ul>Django, HTML, CSS </ul>
+</p>
 
 ## Getting Started
 
@@ -48,4 +53,23 @@ To test, contribute or just see what we did follow few easy steps:
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
+
+<h2>Working Demo </h2>
+<p>The user visits the web application. At the home page of the application, the user
+is asked to upload the image of the thin blood smear slides.</p>
+<p><img src="indexPage.png"/ height=300px width=500px></p>
+<p>The user uploads the image and the pre-trained classifier then runs on the image
+to provide the result. In case the user is found infected, then he can choose to
+view the nearby healthcentres.</p>
+<p><img src="uploadForm.png"/ height=300px width=500px></p>
+<p>The coordinates of the user location is then extracted using the IP address of the
+device. The user also has the option to enter his location manually. In case the
+user enter his location manually, the address is first converted to the correspond-
+ing coordinates using geocoding. The coordinates of the nearby healtcentres are
+then obtained by using the google Map API. Finally, these coordinates are con-
+verted to readable address using reverse geo-coding.</p>
+<p><img src="centresDisplay.png"/ height=300px width=500px></p>
+<p>The user is also given an option to receive the list of nearby health-centres in the
+form of PDF as an email.</p>
+<p><img src="mailReceived.JPG"/ height=300px width=500px></p>
 

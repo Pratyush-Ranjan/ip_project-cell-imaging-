@@ -20,6 +20,8 @@ The user firt signs up for a free account --> The user is then required to login
     <ul>keras, Scikitlearn, numpy, pandas, opencv etc.</ul>
   <li> Web Technologies</li>
     <ul>Django, HTML, CSS </ul>
+  <li> Database </li>
+    <ul>PostgreSQL </ul>
 </p>
 
 ## Getting Started
@@ -47,7 +49,7 @@ To test, contribute or just see what we did follow few easy steps:
 
 
 ## Contributing
-1. Fork it (<https://github.com/prakhar070/ip_project-cell-imaging-/>)
+1. Fork it (<https://github.com/Pratyush-Ranjan/ip_project-cell-imaging-/>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
